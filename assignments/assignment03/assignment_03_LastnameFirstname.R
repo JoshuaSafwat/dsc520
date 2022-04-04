@@ -7,15 +7,17 @@ library(ggplot2)
 theme_set(theme_minimal())
 
 ## Set the working directory to the root of your DSC 520 directory
-setwd("/home/jdoe/Workspaces/dsc520")
+setwd("~/GitHub/dsc520")
 
 ## Load the `data/r4ds/heights.csv` to
 heights_df <- read.csv("data/r4ds/heights.csv")
+head(heights_df)
 
 # https://ggplot2.tidyverse.org/reference/geom_point.html
 ## Using `geom_point()` create three scatterplots for
 ## `height` vs. `earn`
-ggplot(___, aes(x=___, y=___)) + ___
+TheUrl <- download.file("https://ggplot2.tidyverse.org/reference/geom_point.html")
+ggplot(, aes(x=___, y=___)) + ___
 ## `age` vs. `earn`
 ggplot(___, aes(x=___, y=___)) + ___
 ## `ed` vs. `earn`
